@@ -9,34 +9,46 @@
 </head>
 <body>
     
-    <div class="calculator">
-        <div class="display">
+    <div class="calculator-wrapper">
+        
+        <div class="display-wrapper">
             <input class="display" placeholder="0">
         </div>
-        <div class="buttons">
-            <button class="button number" data-value="9">9</button>
-            <button class="button number" data-value="8">8</button>
-            <button class="button number" data-value="7">7</button>
-            <button class="button operator" data-value="+">+</button>
-            <button class="button number" data-value="6">6</button>
-            <button class="button number" data-value="5">5</button>
-            <button class="button number" data-value="4">4</button>
-            <button class="button operator" data-value="/">/</button>
-            <button class="button number" data-value="3">3</button>
-            <button class="button number" data-value="2">2</button>
-            <button class="button number" data-value="1">1</button>
-            <button class="button operator" data-value="-">-</button>
-            <button class="button" data-value=".">.</button>
-            <button class="button number" data-value="0">0</button>
-            <button class="button" data-value="π">π</button>
-            <button class="button operator" data-value="*">*</button>
+        <div class="buttons-wrapper">
+            <div class="row-1">
+                <button class="button number" data-value="9">9</button>
+                <button class="button number" data-value="8">8</button>
+                <button class="button number" data-value="7">7</button>
+                <button class="button operator" data-value="+">+</button>
+            </div>
+            
+            <div class="row-2">
+                <button class="button number" data-value="6">6</button>
+                <button class="button number" data-value="5">5</button>
+                <button class="button number" data-value="4">4</button>
+                <button class="button operator" data-value="/">/</button>
+            </div>
 
-        <div class="actions">
-            <button class="button action" data-action="operate">=</button>
-            <button class="button action" data-action="clear">Clear</button>
-            <button class="button action" data-action="undo">C</button>
-        </div>
+            <div class="row-3">
+                <button class="button number" data-value="3">3</button>
+                <button class="button number" data-value="2">2</button>
+                <button class="button number" data-value="1">1</button>
+                <button class="button operator" data-value="-">-</button>
+            </div>
 
+            
+            <div class="row-4">
+                <button class="button" data-value=".">.</button>
+                <button class="button number" data-value="0">0</button>
+                <button class="button" data-value="π">π</button>
+                <button class="button operator" data-value="*">*</button>
+            </div>
+
+            <div class="row-5 actions">
+                    <button class="button action" data-action="operate">=</button>
+                    <button class="button action" data-action="clear">Clear</button>
+                    <button class="button action" data-action="undo">C</button>
+            </div>
         </div>
     </div>
 
